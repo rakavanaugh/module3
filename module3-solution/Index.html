@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Module 3 Solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -15,13 +15,38 @@
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <div class="navbar-brand">
+          <div class="navbar-brand pull-left">
             <a href="index.html"><h1>Food, LLC</h1></a>
-          </div>
-        </div>
+          </div> <!--End navbar-brand-->
+        </div> <!--End nav-bar header-->
 
+      
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+              <br class="hidden-xs"> Chicken</a> <hr>
+            </li>
+            <li>
+              <a href="#">
+              <br class="hidden-xs">Beef</a> <hr>
+            </li>
+            <li>
+              <a href="#">
+              <br class="hidden-xs">Sushi</a> <hr>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
 
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
