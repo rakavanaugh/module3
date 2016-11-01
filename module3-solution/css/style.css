@@ -21,7 +21,7 @@ font-family: Helvetica, sans-serif;
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #020D1D;
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 0;
@@ -32,10 +32,6 @@ font-family: Helvetica, sans-serif;
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
-}
-
-div.container {
-	margin-bottom: 10px;
 }
 
 #nav-list {
@@ -56,19 +52,49 @@ div.container {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #D6D9DC;
+  border: 1px solid #020D1D;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
 
-button.navbar-toggle.collapsed{
-	margin: 0 auto;
+div#collapsable-nav {
+	background-color: #D6D9DC;
+	opacity: .8;
 }
 
-/* MAIN CONTENT */
+/* MAIN CONTENT OUR MENU */
 
+#main-content{
+	color: #000000;
+}
+
+div.section {
+	background-color: #75787b;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+
+
+/* LARGE and MEDIUM DEVICES */
+
+
+
+/* SMALL DEVICES */
+
+@media (max-width: 767px) {
+
+.navbar-brand h1 {
+	font-size: 5vw;
+
+	}
+}
 
 
 
